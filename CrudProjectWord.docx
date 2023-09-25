@@ -1,0 +1,7 @@
+ATDefinition:
+This table stores information about AT Definition objects. 
+Each row represents a separate AT Definition object. 
+See also the APP_TABLE_BLOB, APP_TABLE_COLUMN, APP_TABLE_INDEX, AT_
+, and AA_
+ tables. 
+For more information about using AT Definitions, see the Process Designer and Objects Help.

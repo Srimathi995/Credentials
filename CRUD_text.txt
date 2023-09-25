@@ -1,0 +1,25 @@
+AccessPrivilege:
+he access privilege object allows you to assign which user groups have permission to perform certain transactions. An access privilege object contains the following two lists of application-defined user groups:
+Performers: users who are authorized to perform the transaction (e.g., creating, updating, and deleting an object).
+Second Signers: users who can verify an action taken by another user or provide further authentication. A single user cannot be both the Performer and Second Signer for the same transaction.
+Access privilege objects do not have Check In, Check Out, or Undo Check Out capabilities.
+The following access privilege objects are included with Plant Operations by default:
+FSMConfigurationDesigner: allows you save any changes made in the FSM tab in Process Designer. This privilege is required to establish relationships between classes and flexible state models.
+OpenCloseForm: allows you to open and close a form in Shop Operations.
+PDCreate: allows you to create and save Process Designer objects.
+PDDelete: allows you to delete Process Designer objects.
+PDUDADesigner: allows you to create and modify a Process Designer UDADefinition object.
+PDUpdate: allows you to update and save Process Designer objects.
+ProcessDesigner: allows you to log into Process Designer.
+ProcessModeler: allows you log into Process Designer but you have no access to forms, subroutines, or event sheets.
+RuntimeOptions: allows you to change stations, change the locale, and disable auto timeout and time scripts in Shop Operations.
+ShopOperations: allows you to perform operator runtime transactions.
+UserAuthentication: allows you to call the middleware method to authenticate the user when logging into Shop Operations Server.
+VersioningPlatformDesigner: allows you to enable, configure, and disable the versioning platform feature.
+The following default access privilege objects provide backward support for JAAS authorization.
+GuestPrivilege
+OperatorPrivilege
+SupervisorPrivilege
+DesignerPrivilege
+AdminPrivilege
+PlantOpsNotRequiredPrivilege
